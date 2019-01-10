@@ -1,7 +1,7 @@
 쿠폰 생성기 웹 어플리케이션 코딩 컨셉 (Todo List)
 ------------------------------------------
 
-1. ~~ Amazon EC2 SSH ubuntu 원격 연결 (AWS CLI, EC2 SSH) ~~
+1. ~~Amazon EC2 SSH ubuntu 원격 연결 (AWS CLI, EC2 SSH)~~
 2. 컴포저, 라라벨 설치 되어있으면 바로 프로젝트 폴더 생성할 것. / 없을 경우 도커로 프로젝트 생성할 것. (시간적 기회비용 따져서 선택할 것, git 사용)
 3. 라라벨 프로젝트와 Amazon RDS mysql 연결
 4. 데이터베이스 스키마 생성->유저 테이블 생성 유저 중 한명은 admin 관리자. 또한 쿠폰 테이블도 생성할 것. (column : group, created_at, used, user)
