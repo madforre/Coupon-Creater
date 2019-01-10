@@ -2,7 +2,7 @@
 ------------------------------------------
 
 1. ~~Amazon EC2 SSH ubuntu 원격 연결 (AWS CLI, EC2 SSH)~~
-2. PHP Lumen Framework 사용
+2. ~~PHP Lumen Framework 사용~~
 3. 루멘 프로젝트와 Amazon RDS mysql 연결
 4. DB 스키마 생성 - 유저 테이블, 쿠폰 테이블 생성 / 유저 중 한명은 admin 관리자. (쿠폰 column : group, created_at, used, user)
 5. 로그인 페이지 (기본 사용) admin일 경우 쿠폰 코드 발행 페이지로 이동 / 그 외의 일반 유저는 쿠폰 코드 사용 페이지로 이동
