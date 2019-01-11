@@ -1,6 +1,14 @@
 쿠폰 생성기 웹 어플리케이션 코딩 컨셉 (Todo List)
 ------------------------------------------
 
+## 개발스텍
+- Lumen PHP Framework
+- nginx
+- composer
+- PHP7.2-fpm
+- AWS EC2
+- AWS RDS
+
 ## 목표
 - AWS EC2에는 Docker 이외의 다른 것은 설치하지 않고 진행할 것.
 - 직접만든 DockerFile, docker compose를 이용하여 도커 컨테이너를 추가할 것.
