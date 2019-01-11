@@ -1,6 +1,11 @@
 쿠폰 생성기 웹 어플리케이션 코딩 컨셉 (Todo List)
 ------------------------------------------
 
+## 목표
+- AWS EC2에는 Docker 이외의 다른 것은 설치하지 않고 진행할 것.
+- 직접만든 DockerFile, docker compose를 이용하여 도커 컨테이너를 추가할 것.
+- Composer와 Lumen 설치는 기존의 dockerfile을 이용할 것.
+
 1. ~~Amazon EC2 SSH ubuntu 원격 연결 (AWS CLI, EC2 SSH)~~
 2. ~~PHP Lumen Framework 사용~~
 3. 루멘 프로젝트와 Amazon RDS mysql 연결
