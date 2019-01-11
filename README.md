@@ -6,6 +6,8 @@
 - 직접만든 DockerFile, docker compose를 이용하여 도커 컨테이너를 추가할 것.
 - Composer와 Lumen 설치는 기존의 dockerfile을 이용할 것.
 
+## 진행 순서
+
 1. ~~Amazon EC2 SSH ubuntu 원격 연결 (AWS CLI, EC2 SSH)~~
 2. ~~PHP Lumen Framework 사용~~
 3. 루멘 프로젝트와 Amazon RDS mysql 연결
