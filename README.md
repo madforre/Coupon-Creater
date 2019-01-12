@@ -2,20 +2,19 @@
 ------------------------------------------
 
 ## 개발스텍
-- Lumen PHP Framework
+- Lumen PHP Framework 5.7
 - nginx 1.14
 - composer
 - PHP7.2-fpm
 - AWS EC2 (Ubuntu 18.04)
-- AWS RDS (MySQL)
-- DBeaver (Database tool)
+- AWS RDS (MySQL 5.7)
 - Docker
-- git (deploy)
 
 ## 개인 목표
 - AWS EC2에는 Docker 이외의 다른 것은 설치하지 않고 진행할 것.
 - 직접만든 DockerFile, docker compose를 이용하여 도커 컨테이너를 추가할 것.
 - Composer와 Lumen 설치는 기존의 dockerfile을 이용할 것.
+- DBeaver (Database tool) 사용
 
 ## 진행 순서
 
@@ -23,7 +22,7 @@
 - ~~DockerHub에서 공식 composer image pull -> 루멘 프로젝트 설치~~
 - ~~프로젝트와 Amazon RDS mysql 연결~~
 - ~~DBeaver 설치 (Mysql Client)~~
-- DB 스키마 생성 - 유저 테이블, 쿠폰 테이블 생성 / 유저 중 한명은 admin 관리자. (쿠폰 column : group, created_at, used, user)
+- ~~DB 스키마 생성 (coupon) / table 생성 (users, coupons) / column에서 쿠폰 코드 16자리는 UNIQUE KEY에 16자리 숫자로 생성~~
 - 회원, 로그인 기능 구현
 - 필요한 페이지 생성 (admin일 경우 쿠폰 코드 발행 페이지로 이동 / 그 외의 일반 유저는 쿠폰 코드 사용 페이지로 이동)
 - 쿠폰 로직 구현 (코드 발행 페이지에서 prefix 값 3자리 입력 -> 13자리 중복되지 않는 난수 쿠폰 생성 10만건),
