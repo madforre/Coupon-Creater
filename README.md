@@ -2,7 +2,7 @@
 ------------------------------------------
 
 ## 개발스텍
-- Lumen PHP Framework 5.7
+- Lumen PHP Framework 5.7.7
 - nginx 1.14
 - composer
 - PHP7.2-fpm
