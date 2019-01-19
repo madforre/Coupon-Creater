@@ -15,6 +15,7 @@
 - 직접만든 DockerFile, docker compose를 이용하여 도커 컨테이너를 추가할 것.
 - Composer와 Lumen 설치는 기존의 dockerfile을 이용할 것.
 - DBeaver (Database tool) 사용
+- JWT 방식을 이용하여 로그인, 회원가입 구현
 - 개인 실력 향상을 위한 프로젝트이므로 시간적인 부담없이 진행할 것.
 
 ## 진행 순서
